@@ -1,0 +1,1159 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+  
+
+<link rel="stylesheet" href="css/style.css" />
+
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+<script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $("#box1").fadeIn();
+    $("#box2").fadeIn("slow");
+    $("#box3").fadeIn(3000);
+  });
+});
+</script>
+
+
+
+<style>
+.dropbtn {
+  background-color: teal;
+  color: white;
+  padding: 2px;
+  font-size: 14px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+</style>
+
+ <style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+  background-color:white;
+}
+
+/* Full height image header */
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("/w3images/mac.jpg");
+  min-height: 100%;
+}
+
+.w3-large .w3-button {
+  padding: 10px 4px;
+}
+
+</style>
+
+
+<style>
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -12px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 50%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+</style>
+
+
+
+
+
+<!---Carousal---->
+<style>
+body {
+  font-family: Arial;
+  padding:8px 6px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+form.example input[type=text] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 100%;
+  background: #f1f1f1;
+}
+
+form.example button {
+  float: left;
+  width: 100%;
+  padding: 10px;
+  background: #2196F3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #0b7dda;
+}
+
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+
+<style>
+div {
+ 
+  border: 1px solid black;
+  margin:1px dodgerblue;
+  padding: 10px;
+  background: white;
+}
+
+</style>
+
+
+</head>
+<body>
+
+
+
+<!-- Navbar (sit on top) -->
+<div class="w3-center" style="font-family:cursive; color:black; background-color: white; ">
+
+  <div class=" w3-top w3-large w3-white w3-medium" id="myNavbar">
+   <img src="mumtahenapic/tallylogo.png"  style="height:100px; width:400px; float:left;">
+    <a href="#home" class="w3-bar-item w3-button w3-wide">JS Software & Technology </a>
+    <!-- Right-sided navbar links -->
+    <div class="w3-center  w3-hide-small">
+	
+	 <a href="#home" class="w3-bar-item w3-button">Home</a>
+  
+    
+	   <a href="#about" class="w3-bar-item w3-button">About Us</a>
+    
+	  
+	 <a href="#product" class="w3-bar-item w3-button">Products</a>
+	  
+	   <a href="#resource" class="w3-bar-item w3-button"> Resources</a>
+      
+       <a href="#training" class="w3-bar-item w3-button"> Training</a>
+      <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> Contact</a>
+	  
+	 
+	
+	  
+	  <a href="#photo" class="w3-bar-item w3-button"><i class="fa fa-image"></i> Showcase</a>
+	
+	
+    </div>
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar on small screens when clicking the menu icon -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+  
+  
+   <a href="#home" onclick="w3_close()" class="w3-bar-item w3-button">Home</a>
+  
+   <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">About us</a>
+  
+  
+  <a href="#product" onclick="w3_close()" class="w3-bar-item w3-button">Products</a>
+  
+   <a href="#resource" onclick="w3_close()" class="w3-bar-item w3-button">Resources</a>
+ 
+  <a href="#training" onclick="w3_close()" class="w3-bar-item w3-button">Training</a>
+  
+  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+ <a href="#photo" onclick="w3_close()" class="w3-bar-item w3-button">Showcase</a>
+  
+ 
+ 
+</nav>
+
+
+
+
+<!-- Header with full-height image -->
+<header class="bgimg-1 w3-container w3-grayscale-min" id="home">
+ 
+
+
+div class="container w3-black">
+ <h3>Tally Software</h3>
+  <p>We are the trusted partner of Tally in Bangladesh</p> 
+   <img src="mumtahenapic/amit.jpg"  style="height:100px; width:1200px;">
+ </div>
+ 
+
+
+
+
+  <div class=" w3-margin-bottom  w3-display-bottom  "  style="padding:140px 10px; background-color:white;font-family: cursive;" >
+    <img src="mumtahenapic/tallyfront.jpg"  style="height:500px; width:1200px;">
+<div>
+
+<a  href="file:///C:/Users/Amit%20Kumar%20Acharjee/Desktop/JS%20Software/JS%20Software.html">Home</a>
+
+
+</div>
+
+
+<div class="dropdown">
+  <span class="dropbtn" >Products</span>
+  <div class="dropdown-content">
+    <a href="file:///C:/Users/Amit%20Kumar%20Acharjee/Desktop/JS%20Software/Tally%20Prime.html">TallyPrime</a>
+    <a href="file:///C:/Users/Amit%20Kumar%20Acharjee/Desktop/JS%20Software/Tally%20Server.html">TallyServer</a>
+    
+  </div>
+</div>
+
+
+
+
+<div class="dropdown">
+  <span class="dropbtn">Services</span>
+  <div class="dropdown-content">
+    <a href="https://help.tallysolutions.com/?searchPage=1&s=tally%20prime">Tally Help</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+  </div>
+</div>
+
+
+
+<div class="dropdown">
+  <span class="dropbtn">Extension</span>
+  <div class="dropdown-content">
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+  </div>
+</div>
+
+
+</div>
+
+</header>
+
+
+
+
+
+
+
+<!-- About us Section -->
+
+
+
+
+<style>
+
+   
+.w3-container{
+
+background-color: white;
+font-size: 18px;
+border: 2px solid red:
+hieght: 400px;
+color:black;
+
+
+
+</style>
+
+
+<div class="container-fluid  w3-white" style="padding:100px 4px; color:black; text-align:center; margin:4px; border: 40px;" id="about">
+
+
+
+
+<button type="button" class="collapsible" style="font-size:16px; color:white;"  >Message from the CEO</button>
+<div class="W3-large"   >
+<p style="font-size:16px; color:black; font-family:cursive; background-color:white;">Ours is an age of globalization & information technology. There is no denying the fact that the world is getting smaller & we are coming closer to each other. People across the globe are living in a global village. Bangladesh, being a small South-Asian country, is also a stakeholder of the global change & progress. Ours is an age of globalization & information technology. There is no denying the fact that the world is getting smaller & we are coming closer to each other. People across the globe are living in a global village. Bangladesh, being a small South Asian country, is also a stakeholder of the global change & progress.</p>
+</div>
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
+
+<div class="container">
+<button type="button" class="collapsible" style="font-size:16px; color:white;"  >Profile of the Founder</button>
+   
+	<div class="w3-large">
+     
+      <p style="color: black; font-family:cursive; font-size:16px; background-color:white;">Mr. Amit Kumar Acharjee, MBA, LLB , CEO & Software Developer,  LEGEND BD GROUP has been associated with multi-faceted socio-economic activities & is currently dedicated to data science,  data analytics, software development & artificial intelligence with machine learning to equip our future generation with future skills-set through providing state-of-the art technological service & training. LEGEND BD GROUP  is a promising business group consisting of six sister concerns with BUSINESS SOFTWARE & TECHNOLOGY. COMPUTER LODGE & LEGEND IT TRAINING being the most more focused software & hardware talent hubs with most innovative & multi-dimensional approaches to change & commitment. Mr. Acharjee has been relentlessly in his pursuit of ‘do something innovative’ motto & sincerely dedicated to transform your business.   Recently he has completed his training on different IT & Programming languages such as Artificial Intelligence with Machine Learning, Applied Data Science, PHP Zend, Java, etc as well as pursuing BSc in Computer Science</p>
+    </div>
+  </div>
+</div>
+</div>
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
+
+
+</div>
+
+ 
+<!----Product---->
+<div class="container-fluid  w3-white" style="padding:100px 4px; color:black; text-align:center; margin:4px; border: 40px;" id="product">
+
+
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</head>
+<div class="container mt-5  w3-teal">
+<h4>  Product portfolio</h4>
+</div>
+<div class="m-4">
+    <div class="row">
+        <div class="col-6">
+            <div class="card text-white bg-primary mb-4">
+                <div class="card-body">
+                
+					<img src="mumtahenapic/tallyprime.jpg"  style="width:60%;height:60%;">
+                 <a href="file:///C:/Users/Amit%20Kumar%20Acharjee/Desktop/JS%20Software/Tally%20Prime.html">   <p class="card-text">Get started</p> </a>
+                </div>
+            </div>
+        </div>
+        <div class="col-6">
+            <div class="card text-white bg-secondary mb-4">
+                <div class="card-body">
+				<img src="mumtahenapic/tallyserver.png"  style="width:60%;height:60%;">
+               <a href="file:///C:/Users/Amit%20Kumar%20Acharjee/Desktop/JS%20Software/Tally%20Server.html">   
+                    <p class="card-text">Get started</p></a>
+                </div>
+            </div>
+        </div>
+       <div class="col-6">
+            <div class="card text-white bg-secondary mb-4">
+                <div class="card-body">
+				<h5 class="card-title">Web App</h5>
+				<img src="mumtahenapic/webapp.jpg"  style="width:60%;height:60%;">
+               <a href="file:///C:/Users/Amit%20Kumar%20Acharjee/Desktop/JS%20Software/Tally%20Server.html">   
+                    <p class="card-text">Get started</p></a>
+                </div>
+            </div>
+        </div>
+        <div class="col-6">
+            <div class="card text-white bg-secondary mb-4">
+                <div class="card-body">
+				<h5 class="card-title">Mobile App</h5>
+				<img src="mumtahenapic/mobapp.png"  style="width:60%;height:60%;">
+              
+                </div>
+            </div>
+        </div>
+        <div class="col-6">
+            <div class="card text-white bg-warning mb-4">
+                <div class="card-body">
+                    <h5 class="card-title">E-learning portal</h5>
+                    <p class="card-text">Visit us</p>
+                </div>
+            </div>
+        </div>
+        
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<!-- Our Resources Section -->
+
+
+
+
+<style>
+
+   
+.w3-container{
+
+background-color: white;
+font-size: 18px;
+border: 2px solid red:
+hieght: 400px;
+color:black;
+
+
+
+</style>
+
+
+
+
+
+
+
+
+
+<div class="container-fluid  w3-white" style="padding:100px 4px; color:black; text-align:center; margin:4px; border: 40px;" id="product">
+
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+
+
+
+
+<header>
+  <h2>Products that we offer</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="file:///C:/Users/Amit%20Kumar%20Acharjee/Desktop/JS%20Software/Tally.html">Tally</a></li>
+      <li><a href="#">Web App </a></li>
+      <li><a href="#">Mobile App</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+   
+    <p>London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+    
+  </article>
+</section>
+
+<footer>
+  <p>Footer</p>
+</footer>
+
+
+</div>
+
+
+
+
+
+<div class="w3-container   w3-white" style="padding:100px 4px; color:black; text-align:center; margin:4px; border: 40px;" id="resource">
+
+
+
+
+   <div class="w3-half">
+   <h2 style="font-family:cursive;"> Resources</h2>
+   </div>
+   
+    <div class="row">
+   <div class="'column">
+	<div class="w3-bar " >
+  
+      <i class="fa fa-facebook w3-margin-bottom  w3-jumbo w3-center"></i>
+      <p class="w3-large">Facebook Page </p>
+      <p><a href="https://www.facebook.com/amitacharjee2020">Get started</a</p>
+    </div>
+	</div>
+
+
+	<div class="'column">
+	<div class="w3-bar">
+   
+      <i class="fa fa-youtube w3-margin-middle w3-jumbo w3-center"></i>
+      <p class="w3-large">YouTube channel </p>
+      <p><a href="file:///C:/Users/User/Desktop/Legend%20E-learning%20Portal/SSC%20English%202nd%20Paper.html">Get started</a></p>
+	  
+	</div>
+    </div>
+	
+	</div>
+ 
+ 
+</div>
+
+
+<!----Training---->
+<div class="w3-container   w3-white" style="padding:100px 4px; color:black; text-align:center; margin:4px; border: 40px;" id="training">
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<!-----Training---->
+<div class="w3-container   w3-white" style="padding:100px 4px; color:black; text-align:center; margin:4px; border: 40px;" id="training">
+
+
+ <style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.row {
+  display: -ms-flexbox; /* IE 10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE 10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  -ms-flex: 50%; /* IE 10 */
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 10px 16px;
+  background-color: white;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+.btn.active {
+  background-color: #666;
+  color: white;
+}
+</style>
+
+
+
+<div class="w3-container" style="padding:80px  60px; background-color:white; border: 2px;" id="photo" >
+<!-- Header -->
+<div class="header" id="myHeader">
+  <h1 style="font-family:cursive;">Showcase</h1>
+ 
+  <button class="btn" onclick="one()">1</button>
+  <button class="btn active" onclick="two()">2</button>
+  <button class="btn" onclick="four()">4</button>
+</div>
+
+<!-- Photo Grid -->
+<div class="row"> 
+  <div class="column">
+    <img src="mumtahenapic/mumta.jpg" style="width:100%">
+    <img src="mumtahenapic/mumta1.jpg" style="width:100%">
+    <img src="mumtahenapic/mumta2.jpg" style="width:100%">
+    <img src="mumtahenapic/mumta3.jpg" style="width:100%">
+    <img src="mumtahenapic/mumta4.jpg" style="width:100%">
+    <img src="mumtahenapic/mumta.jpg" style="width:100%">
+    <img src="mumtahenapic/mumta.jpg" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="mumtahenapic/mumta.jpg" style="width:100%">
+    <img src="mumtahenapic/mumta.jpg" style="width:100%">
+    <img src="mumtahenapic/mumta.jpg" style="width:100%">
+    <img src="mumtahenapic/mumta.jpg" style="width:100%">
+    <img src="mumtahenapic/mumta.jpg" style="width:100%">
+    <img src="mumtahenapic/mumta.jpg" style="width:100%">
+  </div>  
+  <div class="column">
+    <img src="mumtahenapic/mumta.jpg" style="width:100%">
+    <img src="mumtahenapic/mumta1.jpg" style="width:100%">
+    <img src="/w3images/falls2.jpg" style="width:100%">
+    <img src="/w3images/paris.jpg" style="width:100%">
+    <img src="/w3images/nature.jpg" style="width:100%">
+    <img src="/w3images/mist.jpg" style="width:100%">
+    <img src="/w3images/paris.jpg" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="/w3images/underwater.jpg" style="width:100%">
+    <img src="/w3images/ocean.jpg" style="width:100%">
+    <img src="/w3images/wedding.jpg" style="width:100%">
+    <img src="/w3images/mountainskies.jpg" style="width:100%">
+    <img src="/w3images/rocks.jpg" style="width:100%">
+    <img src="/w3images/underwater.jpg" style="width:100%">
+  </div>
+</div>
+
+<script>
+// Get the elements with class="column"
+var elements = document.getElementsByClassName("column");
+
+// Declare a loop variable
+var i;
+
+// Full-width images
+function one() {
+    for (i = 0; i < elements.length; i++) {
+    elements[i].style.msFlex = "100%";  // IE10
+    elements[i].style.flex = "100%";
+  }
+}
+
+// Two images side by side
+function two() {
+  for (i = 0; i < elements.length; i++) {
+    elements[i].style.msFlex = "50%";  // IE10
+    elements[i].style.flex = "50%";
+  }
+}
+
+// Four images side by side
+function four() {
+  for (i = 0; i < elements.length; i++) {
+    elements[i].style.msFlex = "25%";  // IE10
+    elements[i].style.flex = "25%";
+  }
+}
+
+// Add active class to the current button (highlight it)
+var header = document.getElementById("myHeader");
+var btns = header.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+</script>
+
+
+
+
+</div>
+
+
+
+
+
+
+
+<!-- Contact Section -->
+
+
+
+<style>
+
+.w3-container{
+background-color:#white ;
+font-size: 18px;
+border: 4px solid black:
+hieght: 400px;
+}
+</style>
+
+<div class="w3-container w3-white" style="padding:100px 30px" id="contact">
+
+  
+ 
+
+  <div style="margin-top:10px">
+    <p> Ami Kumar Acharjee <br> MBA(DU),LLB <br> CEO & Software Developer <br> Business Software & Technology <br> Mirpur,   Dhaka 
+    <p><i class="fa fa-phone w3-large w3-margin-right"></i> Mob: 01712878767</p>
+    <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> Email:bstbd2020@gmail.com.com</p>
+    <br>
+    <form action="/action_page.php" target="_blank">
+     <p><input class="w3-input w3-border" type="text" placeholder="Name" required name="Name"></p>
+     <p><input class="w3-input w3-border" type="text" placeholder="Email" required name="Email"></p>
+     <p><input class="w3-input w3-border" type="text" placeholder="mobile" required name="mobile"></p>
+     <p><input class="w3-input w3-border" type="text" placeholder="subject" required name="subject"></p>
+ <p><input class="w3-input w3-border" type="text" placeholder="mode of study" required name="Mode of study"></p>
+      <p>
+        <button class="w3-button w3-black" type="submit">
+          <i class="fa fa-send" style="font-size:24px" ></i> SEND MESSAGE
+        </button>
+      </p>
+    </form>
+ 
+  </div>
+
+</div>
+
+
+
+
+
+
+
+<div class="w3-container">
+
+<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login here</button>
+
+<div id="id01" class="w3-container-large w3-display-bottom" style="margin:4px; border: 4px; width:50%px; height:50%px; ">
+  
+  
+  <form class="modal-content animate" action="/action_page.php" method="post">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      
+    </div>
+
+    <div class="w3-container w3-display-bottom" style="margin:4px; border: 4px;">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+        
+      <button type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="w3-container" style="background-color:white">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+</div>
+</div>
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+
+
+
+<!---photo-gallery-->
+
+<header>
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.row {
+  display: -ms-flexbox; /* IE 10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE 10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  -ms-flex: 50%; /* IE 10 */
+  flex: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 10px 16px;
+  background-color: white;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+.btn.active {
+  background-color: #666;
+  color: white;
+}
+</style>
+
+</header>
+
+<div class="w3-container" style="padding:80px  60px; background-color:white; border: 2px;" id="photo" >
+<!-- Header -->
+<div class="header" id="myHeader">
+  <h1 style="font-family:cursive;">Showcase</h1>
+ 
+  <button class="btn" onclick="one()">1</button>
+  <button class="btn active" onclick="two()">2</button>
+  <button class="btn" onclick="four()">4</button>
+</div>
+
+<!-- Photo Grid -->
+<div class="row"> 
+  <div class="column">
+    <img src="mumtahenapic/mumta.jpg" style="width:100%">
+    <img src="mumtahenapic/mumta1.jpg" style="width:100%">
+    <img src="mumtahenapic/mumta2.jpg" style="width:100%">
+    <img src="mumtahenapic/mumta3.jpg" style="width:100%">
+    <img src="mumtahenapic/mumta4.jpg" style="width:100%">
+    <img src="mumtahenapic/mumta.jpg" style="width:100%">
+    <img src="mumtahenapic/mumta.jpg" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="mumtahenapic/mumta.jpg" style="width:100%">
+    <img src="mumtahenapic/mumta.jpg" style="width:100%">
+    <img src="mumtahenapic/mumta.jpg" style="width:100%">
+    <img src="mumtahenapic/mumta.jpg" style="width:100%">
+    <img src="mumtahenapic/mumta.jpg" style="width:100%">
+    <img src="mumtahenapic/mumta.jpg" style="width:100%">
+  </div>  
+  <div class="column">
+    <img src="mumtahenapic/mumta.jpg" style="width:100%">
+    <img src="mumtahenapic/mumta1.jpg" style="width:100%">
+    <img src="/w3images/falls2.jpg" style="width:100%">
+    <img src="/w3images/paris.jpg" style="width:100%">
+    <img src="/w3images/nature.jpg" style="width:100%">
+    <img src="/w3images/mist.jpg" style="width:100%">
+    <img src="/w3images/paris.jpg" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="/w3images/underwater.jpg" style="width:100%">
+    <img src="/w3images/ocean.jpg" style="width:100%">
+    <img src="/w3images/wedding.jpg" style="width:100%">
+    <img src="/w3images/mountainskies.jpg" style="width:100%">
+    <img src="/w3images/rocks.jpg" style="width:100%">
+    <img src="/w3images/underwater.jpg" style="width:100%">
+  </div>
+</div>
+
+<script>
+// Get the elements with class="column"
+var elements = document.getElementsByClassName("column");
+
+// Declare a loop variable
+var i;
+
+// Full-width images
+function one() {
+    for (i = 0; i < elements.length; i++) {
+    elements[i].style.msFlex = "100%";  // IE10
+    elements[i].style.flex = "100%";
+  }
+}
+
+// Two images side by side
+function two() {
+  for (i = 0; i < elements.length; i++) {
+    elements[i].style.msFlex = "50%";  // IE10
+    elements[i].style.flex = "50%";
+  }
+}
+
+// Four images side by side
+function four() {
+  for (i = 0; i < elements.length; i++) {
+    elements[i].style.msFlex = "25%";  // IE10
+    elements[i].style.flex = "25%";
+  }
+}
+
+// Add active class to the current button (highlight it)
+var header = document.getElementById("myHeader");
+var btns = header.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+</script>
+
+
+
+
+
+<!----The End----->
+
+<div class="jumbotron" style="font-size:18px; color:black; font-family:cursive; background-color:white"> 
+
+<h3><span>Address</span><h3>
+  <p style="font-size:18px" ><span>Legend English Academy </span><br><span>34/3, Pallabi, Mirpur-1216</span> </p>
+ 
+<a  href="https://www.legendbdgroup.com"  style="color:black; font-family: cursive; font-size:16px">Visit our website:Legend BD Group </a><br>	
+
+
+<a href="#" data-toggle="popover" title="Popover header" data-content="Some content inside the popover"><span>Topup</span></a> <br>
+	
+	
+<i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>	
+	
+</div>
+
+
+</body>
+</html>
+
+
+<!---The End----->
