@@ -609,7 +609,7 @@ button:hover, a:hover {
                 <div class="card-body">
                 
 					<img src="mumtahenapic/tallyprime.jpg"  style="width:60%;height:60%;">
-                 <a href="file:///C:/Users/Amit%20Kumar%20Acharjee/Desktop/JS%20Software/Tally%20Prime.html">   <p class="card-text">Get started</p> </a>
+                 <a href="#tallyPrime">   <p class="card-text">Get started</p> </a>
                 </div>
             </div>
         </div>
@@ -617,7 +617,7 @@ button:hover, a:hover {
             <div class="card text-white bg-secondary mb-4">
                 <div class="card-body">
 				<img src="mumtahenapic/tallyserver.png"  style="width:60%;height:60%;">
-               <a href="file:///C:/Users/Amit%20Kumar%20Acharjee/Desktop/JS%20Software/Tally%20Server.html">   
+               <a href="#tallyPrimeServer">   
                     <p class="card-text">Get started</p></a>
                 </div>
             </div>
@@ -767,7 +767,7 @@ button:hover, a:hover {
 
 
 
-<!----TallyPrime---->
+<!----TallyPrime Server---->
 <div class="container-fluid  w3-white" style="padding:100px 4px; color:white; text-align:center; margin:4px; font-size:14px; border: 4px;" id="tallyPrimeServer">
 
 
@@ -923,6 +923,93 @@ body {
 }
 </style>
 
+ <h1 style="font-family:cursive;">Showcase</h1>
+ 
+  <button class="btn" onclick="one()">1</button>
+  <button class="btn active" onclick="two()">2</button>
+  <button class="btn" onclick="four()">4</button>
+</div>
+
+<!-- Photo Grid -->
+<div class="row"> 
+  <div class="column">
+    <img src="mumtahenapic/mumta.jpg" style="width:100%">
+    <img src="mumtahenapic/mumta1.jpg" style="width:100%">
+    <img src="mumtahenapic/mumta2.jpg" style="width:100%">
+    <img src="mumtahenapic/mumta3.jpg" style="width:100%">
+    <img src="mumtahenapic/mumta4.jpg" style="width:100%">
+    <img src="mumtahenapic/mumta.jpg" style="width:100%">
+    <img src="mumtahenapic/mumta.jpg" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="mumtahenapic/mumta.jpg" style="width:100%">
+    <img src="mumtahenapic/mumta.jpg" style="width:100%">
+    <img src="mumtahenapic/mumta.jpg" style="width:100%">
+    <img src="mumtahenapic/mumta.jpg" style="width:100%">
+    <img src="mumtahenapic/mumta.jpg" style="width:100%">
+    <img src="mumtahenapic/mumta.jpg" style="width:100%">
+  </div>  
+  <div class="column">
+    <img src="mumtahenapic/mumta.jpg" style="width:100%">
+    <img src="mumtahenapic/mumta1.jpg" style="width:100%">
+    <img src="/w3images/falls2.jpg" style="width:100%">
+    <img src="/w3images/paris.jpg" style="width:100%">
+    <img src="/w3images/nature.jpg" style="width:100%">
+    <img src="/w3images/mist.jpg" style="width:100%">
+    <img src="/w3images/paris.jpg" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="/w3images/underwater.jpg" style="width:100%">
+    <img src="/w3images/ocean.jpg" style="width:100%">
+    <img src="/w3images/wedding.jpg" style="width:100%">
+    <img src="/w3images/mountainskies.jpg" style="width:100%">
+    <img src="/w3images/rocks.jpg" style="width:100%">
+    <img src="/w3images/underwater.jpg" style="width:100%">
+  </div>
+</div>
+
+<script>
+// Get the elements with class="column"
+var elements = document.getElementsByClassName("column");
+
+// Declare a loop variable
+var i;
+
+// Full-width images
+function one() {
+    for (i = 0; i < elements.length; i++) {
+    elements[i].style.msFlex = "100%";  // IE10
+    elements[i].style.flex = "100%";
+  }
+}
+
+// Two images side by side
+function two() {
+  for (i = 0; i < elements.length; i++) {
+    elements[i].style.msFlex = "50%";  // IE10
+    elements[i].style.flex = "50%";
+  }
+}
+
+// Four images side by side
+function four() {
+  for (i = 0; i < elements.length; i++) {
+    elements[i].style.msFlex = "25%";  // IE10
+    elements[i].style.flex = "25%";
+  }
+}
+
+// Add active class to the current button (highlight it)
+var header = document.getElementById("myHeader");
+var btns = header.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+</script>
 
 
 <!-- Contact Section -->
@@ -1085,94 +1172,7 @@ body {
 <div class="w3-container" style="padding:80px  10px; background-color:white; border: 2px;" id="client" >
 <!-- Header -->
 <div class="header" id="myHeader">
-  <h1 style="font-family:cursive;">Showcase</h1>
  
-  <button class="btn" onclick="one()">1</button>
-  <button class="btn active" onclick="two()">2</button>
-  <button class="btn" onclick="four()">4</button>
-</div>
-
-<!-- Photo Grid -->
-<div class="row"> 
-  <div class="column">
-    <img src="mumtahenapic/mumta.jpg" style="width:100%">
-    <img src="mumtahenapic/mumta1.jpg" style="width:100%">
-    <img src="mumtahenapic/mumta2.jpg" style="width:100%">
-    <img src="mumtahenapic/mumta3.jpg" style="width:100%">
-    <img src="mumtahenapic/mumta4.jpg" style="width:100%">
-    <img src="mumtahenapic/mumta.jpg" style="width:100%">
-    <img src="mumtahenapic/mumta.jpg" style="width:100%">
-  </div>
-  <div class="column">
-    <img src="mumtahenapic/mumta.jpg" style="width:100%">
-    <img src="mumtahenapic/mumta.jpg" style="width:100%">
-    <img src="mumtahenapic/mumta.jpg" style="width:100%">
-    <img src="mumtahenapic/mumta.jpg" style="width:100%">
-    <img src="mumtahenapic/mumta.jpg" style="width:100%">
-    <img src="mumtahenapic/mumta.jpg" style="width:100%">
-  </div>  
-  <div class="column">
-    <img src="mumtahenapic/mumta.jpg" style="width:100%">
-    <img src="mumtahenapic/mumta1.jpg" style="width:100%">
-    <img src="/w3images/falls2.jpg" style="width:100%">
-    <img src="/w3images/paris.jpg" style="width:100%">
-    <img src="/w3images/nature.jpg" style="width:100%">
-    <img src="/w3images/mist.jpg" style="width:100%">
-    <img src="/w3images/paris.jpg" style="width:100%">
-  </div>
-  <div class="column">
-    <img src="/w3images/underwater.jpg" style="width:100%">
-    <img src="/w3images/ocean.jpg" style="width:100%">
-    <img src="/w3images/wedding.jpg" style="width:100%">
-    <img src="/w3images/mountainskies.jpg" style="width:100%">
-    <img src="/w3images/rocks.jpg" style="width:100%">
-    <img src="/w3images/underwater.jpg" style="width:100%">
-  </div>
-</div>
-
-<script>
-// Get the elements with class="column"
-var elements = document.getElementsByClassName("column");
-
-// Declare a loop variable
-var i;
-
-// Full-width images
-function one() {
-    for (i = 0; i < elements.length; i++) {
-    elements[i].style.msFlex = "100%";  // IE10
-    elements[i].style.flex = "100%";
-  }
-}
-
-// Two images side by side
-function two() {
-  for (i = 0; i < elements.length; i++) {
-    elements[i].style.msFlex = "50%";  // IE10
-    elements[i].style.flex = "50%";
-  }
-}
-
-// Four images side by side
-function four() {
-  for (i = 0; i < elements.length; i++) {
-    elements[i].style.msFlex = "25%";  // IE10
-    elements[i].style.flex = "25%";
-  }
-}
-
-// Add active class to the current button (highlight it)
-var header = document.getElementById("myHeader");
-var btns = header.getElementsByClassName("btn");
-for (var i = 0; i < btns.length; i++) {
-  btns[i].addEventListener("click", function() {
-    var current = document.getElementsByClassName("active");
-    current[0].className = current[0].className.replace(" active", "");
-    this.className += " active";
-  });
-}
-</script>
-
 
 
 
